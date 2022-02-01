@@ -136,26 +136,30 @@ let person = (`${firstName} ${middleName} ${lastName}`);
 console.log(person);
 document.write(person);
 
-//--------------------------------------------------------
+
 // // 6.За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
 // // 7.Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
-//
-let firstName = prompt('What is your name?',  'example - Marta' );
-let middleName = prompt('What is your Middle Name?', 'example - Velychko' );
-let age =prompt('What is your Age?', 'example 25-30' ) ;
-console.log(` Hi ${firstName} ${middleName} You are ${age} years old`)
+
+// let firstName = prompt('What is your name?',  'example - Marta' );
+// let middleName = prompt('What is your Middle Name?', 'example - Velychko' );
+// let age =prompt('What is your Age?', 'example 25-30' ) ;
+// console.log(` Hi ${firstName} ${middleName} You are ${age} years old`)
+
+
 
 // // 8.За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
 // // 9.let a = 100; let b = '100'; let c = true;
 
-let a = 100;
-console.log(typeof a);
+// let a = 100;
+// console.log(typeof a);
+//
+// let b = '100';
+// console.log(typeof b);
+//
+// let c = true;
+// console.log(typeof c);
 
-let b = '100';
-console.log(typeof b);
 
-let c = true;
-console.log(typeof c);
 
 // // 10.Визначити відповідний оператор в виразах що б вийшов відповідний результат.
 // // 11.В однакових виразах не використовувати однакові оператори!!!
